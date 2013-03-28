@@ -6,5 +6,6 @@
     <File Url="default.aspx"
           NavBarHome="True"
           IgnoreIfAlreadyExists="True"/>
+    
   </Module>
 </Elements>
