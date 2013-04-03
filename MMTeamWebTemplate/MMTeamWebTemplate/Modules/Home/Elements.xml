@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Home"
+          Path="Home"
+          Url="">
+    <File Path="Home.aspx"
+          Url="Home.aspx"
+          NavBarHome="True"
+          IgnoreIfAlreadyExists="True" />
+  </Module>
+</Elements>
