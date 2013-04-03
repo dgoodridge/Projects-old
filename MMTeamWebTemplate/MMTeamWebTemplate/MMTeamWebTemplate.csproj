@@ -15,6 +15,7 @@
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <SandboxedSolution>False</SandboxedSolution>
     <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+    <PostDeploymentCommand>xcopy /y "%24%28TargetDir%29MMTeamWebTemplate.wsp" "C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Solutions"</PostDeploymentCommand>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -99,8 +100,8 @@
     <None Include="MMTeamWebTemplate\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4909507f-8573-403b-9265-228f6bbceecb}</SharePointProjectItemId>
     </None>
-    <None Include="Modules\Home Page\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{4a653582-f35e-42d2-8e37-5299ec65087b}</SharePointProjectItemId>
+    <None Include="Modules\Home\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{87b186b5-b9c3-4468-ac9e-00e5aa23ee54}</SharePointProjectItemId>
     </None>
     <None Include="Modules\Knowledge\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{49c78c32-361d-4ad0-a3ad-c6d3c7577bc1}</SharePointProjectItemId>
@@ -145,8 +146,10 @@
     <Content Include="Lists\Tasks\TasksInstance\Elements.xml" />
     <Content Include="MMTeamWebTemplate\Elements.xml" />
     <Content Include="MMTeamWebTemplate\ONET.xml" />
-    <Content Include="Modules\Home Page\default.aspx" />
-    <Content Include="Modules\Home Page\Elements.xml" />
+    <Content Include="Modules\Home\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Modules\Home\default.aspx" />
     <Content Include="Modules\Knowledge\Elements.xml" />
     <Content Include="Modules\Knowledge\Knowledge.aspx" />
     <Content Include="Modules\Metrics\Elements.xml" />
