@@ -49,7 +49,6 @@
 </SharePoint:StyleBlock>
 </asp:Content>
 <asp:Content ID="Content12" runat="server" ContentPlaceHolderID="PlaceHolderMain">
-    <h1>Process Site</h1>
     <table border="0" cellpadding="4" cellspacing="0" width="100%">
         <tr>
             <td id="tlc" height="100%" name="_invisibleIfEmpty" valign="top" style="width:50%">
