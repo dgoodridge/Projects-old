@@ -34,6 +34,10 @@
       </Lists>
       <SiteFeatures>
         <!--Site Scoped Features are activated in Web-EnsureSiteScopedFeatures Feature-->
+        <!-- Activating SharePoint Server Publishing Infrastructure-->
+        <Feature ID="f6924d36-2fa8-4f0b-b16d-06b7250180fa" />
+        <!--Publishing Pre-requisites-->
+        <Feature ID="a392da98-270b-4e85-9769-04c0fde267aa" />
       </SiteFeatures>
       <WebFeatures>
         <!--Template Specific Features-->
@@ -44,6 +48,11 @@
         <!--Web-SitePages Feature-->
         <Feature ID="4b72b7f3-2330-4abb-88b5-4196c0e45b84" />
 
+        <!--Publishing Features-->
+        <!--Publishing-->
+        <Feature ID="22a9ef51-737b-4ff2-9346-694633fe4416" />
+        <!--PublishingWeb-->
+        <Feature ID="94c94ca6-b32f-4da9-a9e3-1f3d343d7ecb" />
         <!--MetaData Nav-->
         <Feature ID="7201d6a4-a5d3-49a1-8c19-19c4bac6e668" />
         
