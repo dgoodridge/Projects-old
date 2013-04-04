@@ -71,6 +71,9 @@
       <FeatureId>{1aea9f4f-a54f-4005-84d4-17ebba43b9a8}</FeatureId>
     </None>
     <None Include="key.snk" />
+    <None Include="Lists\Documents\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{330f8cf8-5a01-440a-93cb-6d498cedd712}</SharePointProjectItemId>
+    </None>
     <None Include="Lists\Proposed Changes\Proposed Changes Instance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{e8271f47-8251-496e-815f-8548f83ec5b6}</SharePointProjectItemId>
     </None>
@@ -107,6 +110,7 @@
     <Content Include="Features\Web-EnsureSiteScopedFeatures\Web-EnsureSiteScopedFeatures.Template.xml">
       <DependentUpon>Web-EnsureSiteScopedFeatures.feature</DependentUpon>
     </Content>
+    <Content Include="Lists\Documents\Elements.xml" />
     <Content Include="Lists\Proposed Changes\Elements.xml" />
     <Content Include="Lists\Proposed Changes\Proposed Changes Instance\Elements.xml" />
     <Content Include="Lists\Proposed Changes\Schema.xml" />
