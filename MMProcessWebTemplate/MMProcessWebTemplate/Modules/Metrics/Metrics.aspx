@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ContentPlaceHolderId="PlaceHolderPageImage" runat="server"><img src="/_layouts/15/images/blank.gif?rev=23" width='1' height='1' alt="" /></asp:Content>
 <asp:Content ContentPlaceHolderId="PlaceHolderPageTitleInTitleArea" runat="server">
-		<SharePoint:FieldValue id="PageTitle" FieldName="Title" runat="server"/>
+		Metrics<SharePoint:FieldValue id="PageTitle" FieldName="Title" runat="server"/>
 </asp:Content>
 <asp:Content ContentPlaceHolderId="PlaceHolderTitleAreaClass" runat="server">
 <SharePoint:UIVersionedContent runat="server" UIVersion="<=3">

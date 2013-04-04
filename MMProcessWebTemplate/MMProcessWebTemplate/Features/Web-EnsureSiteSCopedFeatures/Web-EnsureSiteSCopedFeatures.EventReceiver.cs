@@ -69,6 +69,15 @@ namespace MMProcessWebTemplate.Features.Web_EnsureSiteSCopedFeatures
                 siteFeatures.Add(new Guid("9fec40ea-a949-407d-be09-6cba26470a0c"));
                 siteFeatures.Add(new Guid("2ed1c45e-a73b-4779-ae81-1524e4de467a"));
 
+                siteFeatures.Add(new Guid("f6924d36-2fa8-4f0b-b16d-06b7250180fa"));
+                siteFeatures.Add(new Guid("a392da98-270b-4e85-9769-04c0fde267aa"));
+                siteFeatures.Add(new Guid("aebc918d-b20f-4a11-a1db-9ed84d79c87e"));
+                siteFeatures.Add(new Guid("d3f51be2-38a8-4e44-ba84-940d35be1566"));
+                siteFeatures.Add(new Guid("4bcccd62-dcaf-46dc-a7d4-e38277ef33f4"));
+                siteFeatures.Add(new Guid("068bc832-4951-11dc-8314-0800200c9a66"));
+                siteFeatures.Add(new Guid("915c240e-a6cc-49b8-8b2c-0bff8b553ed3"));
+                siteFeatures.Add(new Guid("89e0306d-453b-4ec5-8d68-42067cdbf98e"));
+
                 foreach (Guid featureID in siteFeatures)
                 {
                     if (web.Site.Features[featureID] == null)

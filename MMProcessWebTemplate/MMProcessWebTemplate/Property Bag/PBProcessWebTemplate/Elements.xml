@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <PropertyBag ParentType="Web">
-    <Property Name="MyMARTA.Process-webtemplateid"
+    <Property Name="MyMARTA.WebTemplateID"
               Type="string"
-              Value="WebTemplateProcessSite" />
+              Value="ProcessTemplate" />
   </PropertyBag>
 </Elements>

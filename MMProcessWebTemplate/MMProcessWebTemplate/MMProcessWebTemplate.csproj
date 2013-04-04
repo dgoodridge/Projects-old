@@ -14,6 +14,7 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <SandboxedSolution>False</SandboxedSolution>
+    <PostDeploymentCommand>xcopy /y "%24%28TargetDir%29MMProcessWebTemplate.wsp" "C:\Users\Administrator\Documents\Visual Studio 2012\Projects\Solutions"</PostDeploymentCommand>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,6 +71,9 @@
       <FeatureId>{e8dd823f-6f56-4af0-b806-40b88ea79cb3}</FeatureId>
     </None>
     <None Include="key.snk" />
+    <None Include="Lists\Diagram Library\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b22bea4f-5581-4ddf-90b9-aea7a2978f77}</SharePointProjectItemId>
+    </None>
     <None Include="Lists\Roles and Responsibilities\Roles and Responsibilities Instance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{23851216-86fb-49e7-bc24-8ba024335cf4}</SharePointProjectItemId>
     </None>
@@ -124,6 +128,7 @@
     <Content Include="Features\Web-EnsureSiteSCopedFeatures\Web-EnsureSiteSCopedFeatures.Template.xml">
       <DependentUpon>Web-EnsureSiteSCopedFeatures.feature</DependentUpon>
     </Content>
+    <Content Include="Lists\Diagram Library\Elements.xml" />
     <Content Include="Lists\Roles and Responsibilities\Elements.xml" />
     <Content Include="Lists\Roles and Responsibilities\Roles and Responsibilities Instance\Elements.xml" />
     <Content Include="Lists\Roles and Responsibilities\Schema.xml" />
@@ -136,7 +141,9 @@
     <Content Include="MMProcessWebTemplate\Elements.xml" />
     <Content Include="MMProcessWebTemplate\ONET.xml" />
     <Content Include="Modules\Diagrams\Diagrams.aspx" />
-    <Content Include="Modules\Diagrams\Elements.xml" />
+    <Content Include="Modules\Diagrams\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Modules\Home Page\default.aspx" />
     <Content Include="Modules\Home Page\Elements.xml" />
     <Content Include="Modules\Metrics\Elements.xml" />
@@ -149,4 +156,8 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
 </Project>
