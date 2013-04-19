@@ -86,6 +86,10 @@
     <None Include="Modules\Home Page\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{3d9a6a3a-eebd-4306-980b-099a6fe68009}</SharePointProjectItemId>
     </None>
+    <None Include="Modules\Theme\MARTAblue.spcolor" />
+    <None Include="Modules\Theme\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{875306f2-106e-49d4-885d-130d1b258b41}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{3b3497cb-09ea-4260-9d0f-caf2fe4b676f}</PackageId>
     </None>
@@ -118,6 +122,7 @@
     <Content Include="MMPlanningWebTemplate\ONET.xml" />
     <Content Include="Modules\Home Page\default.aspx" />
     <Content Include="Modules\Home Page\Elements.xml" />
+    <Content Include="Modules\Theme\Elements.xml" />
     <Content Include="Property Bag\PBPlanningWebTemplate\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
