@@ -109,6 +109,10 @@
     <None Include="Modules\Metrics\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{73bc2ca1-caf3-4bd0-85ac-fccb739fe8fb}</SharePointProjectItemId>
     </None>
+    <None Include="Modules\Theme\MARTAblue.spcolor" />
+    <None Include="Modules\Theme\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{589c361e-fb6a-4818-a46d-b2340cec0a16}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{fa620a5f-8e76-40bc-8711-c7b72979abc5}</PackageId>
     </None>
@@ -154,6 +158,7 @@
     <Content Include="Modules\Knowledge\Knowledge.aspx" />
     <Content Include="Modules\Metrics\Elements.xml" />
     <Content Include="Modules\Metrics\Metrics.aspx" />
+    <Content Include="Modules\Theme\Elements.xml" />
     <Content Include="Property Bag\PBTeamWebTemplate\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
