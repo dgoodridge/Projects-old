@@ -8,7 +8,7 @@
         OnQuickLaunch="TRUE"
         SecurityBits="11"
         Sequence="360"
-        DisplayName="Tasks"
+        DisplayName="MARTA Tasks"
         Description="My List Definition"
         Image="/_layouts/15/images/ittask.png"/>
 </Elements>

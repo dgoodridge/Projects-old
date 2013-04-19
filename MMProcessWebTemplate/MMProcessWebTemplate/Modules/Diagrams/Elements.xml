@@ -4,6 +4,6 @@
           Path="Diagrams"
           Url="">
     <File Url="Diagrams.aspx"
-          IgnoreIfAlreadyExists="false" />
+          IgnoreIfAlreadyExists="true" />
   </Module>
 </Elements>
