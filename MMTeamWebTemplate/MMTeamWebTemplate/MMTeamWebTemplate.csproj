@@ -106,6 +106,9 @@
     <None Include="Modules\Knowledge\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{49c78c32-361d-4ad0-a3ad-c6d3c7577bc1}</SharePointProjectItemId>
     </None>
+    <None Include="Modules\Logo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f3565866-d924-4947-b415-48ca8c1f7e6a}</SharePointProjectItemId>
+    </None>
     <None Include="Modules\Metrics\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{73bc2ca1-caf3-4bd0-85ac-fccb739fe8fb}</SharePointProjectItemId>
     </None>
@@ -156,6 +159,8 @@
     <Content Include="Modules\Home\default.aspx" />
     <Content Include="Modules\Knowledge\Elements.xml" />
     <Content Include="Modules\Knowledge\Knowledge.aspx" />
+    <Content Include="Modules\Logo\Elements.xml" />
+    <Content Include="Modules\Logo\Team.png" />
     <Content Include="Modules\Metrics\Elements.xml" />
     <Content Include="Modules\Metrics\Metrics.aspx" />
     <Content Include="Modules\Theme\Elements.xml" />
