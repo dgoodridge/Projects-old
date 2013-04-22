@@ -101,6 +101,9 @@
     <None Include="Modules\Home Page\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f55b9ace-73bf-4d26-9a6b-58a3eff6880a}</SharePointProjectItemId>
     </None>
+    <None Include="Modules\Logo\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ed684729-1169-4a94-bd58-c680d27cda7b}</SharePointProjectItemId>
+    </None>
     <None Include="Modules\Metrics\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{6c2845cc-8bae-421e-937e-04011d03af60}</SharePointProjectItemId>
     </None>
@@ -150,6 +153,8 @@
     </Content>
     <Content Include="Modules\Home Page\default.aspx" />
     <Content Include="Modules\Home Page\Elements.xml" />
+    <Content Include="Modules\Logo\Elements.xml" />
+    <Content Include="Modules\Logo\Process.png" />
     <Content Include="Modules\Metrics\Elements.xml" />
     <Content Include="Modules\Metrics\Metrics.aspx" />
     <Content Include="Modules\Theme\Elements.xml" />
