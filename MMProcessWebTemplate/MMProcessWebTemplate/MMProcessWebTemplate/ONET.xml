@@ -4,15 +4,7 @@
          xmlns:ows="Microsoft SharePoint"
          UIVersion="15"
          HideSiteContentsLink="false">
-  <NavBars>
-    <NavBar Name="SharePoint Top NavBar"
-            ID="1002">
-      <NavBarLink Name="Metrics"
-                  Url="Metrics.aspx" ></NavBarLink>
-      <NavBarLink Name="Diagrams"
-                  Url="Diagrams.aspx" ></NavBarLink>
-    </NavBar>
-  </NavBars>
+  
   <ListTemplates>
   </ListTemplates>
   <DocumentTemplates>

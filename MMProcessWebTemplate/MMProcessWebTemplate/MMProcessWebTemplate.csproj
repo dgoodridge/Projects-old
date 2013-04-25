@@ -98,7 +98,7 @@
     <None Include="Modules\Diagrams\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5719ba6a-c147-4d79-95d8-057ef5f203d8}</SharePointProjectItemId>
     </None>
-    <None Include="Modules\Home Page\SharePointProjectItem.spdata">
+    <None Include="Modules\Home\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f55b9ace-73bf-4d26-9a6b-58a3eff6880a}</SharePointProjectItemId>
     </None>
     <None Include="Modules\Logo\SharePointProjectItem.spdata">
@@ -151,8 +151,8 @@
     <Content Include="Modules\Diagrams\Elements.xml">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Modules\Home Page\default.aspx" />
-    <Content Include="Modules\Home Page\Elements.xml" />
+    <Content Include="Modules\Home\default.aspx" />
+    <Content Include="Modules\Home\Elements.xml" />
     <Content Include="Modules\Logo\Elements.xml" />
     <Content Include="Modules\Logo\Process.png" />
     <Content Include="Modules\Metrics\Elements.xml" />
