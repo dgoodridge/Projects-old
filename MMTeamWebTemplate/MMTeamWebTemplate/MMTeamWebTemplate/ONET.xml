@@ -4,24 +4,7 @@
          xmlns:ows="Microsoft SharePoint"
          UIVersion="15"
          HideSiteContentsLink="false">
-  <NavBars>
-    <NavBar Name="SharePoint Top NavBar"
-            ID="1002">
-      <NavBarLink Name="Tasks"
-                  Url="_layouts/15/start.aspx#/Lists/Tasks/" ></NavBarLink>
-      <NavBarLink Name="Calendar"
-                  Url="_layouts/15/start.aspx#/Lists/Calendar/" ></NavBarLink>
-      <NavBarLink Name="Documents"
-                  Url="_layouts/15/start.aspx#/Lists/Documents/" ></NavBarLink>
-      <NavBarLink Name="Contacts"
-                  Url="_layouts/15/start.aspx#/Lists/Contacts/" ></NavBarLink>
-      <NavBarLink Name="Metrics"
-                  Url="Metrics.aspx" ></NavBarLink>
-      <NavBarLink Name="Knowledge"
-                  Url="Knowledge.aspx" ></NavBarLink>
 
-    </NavBar>
-  </NavBars>
   <ListTemplates>
   </ListTemplates>
   <DocumentTemplates>
